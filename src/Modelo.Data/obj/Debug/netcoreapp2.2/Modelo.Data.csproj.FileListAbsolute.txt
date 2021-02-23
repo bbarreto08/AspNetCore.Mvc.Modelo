@@ -1,0 +1,3 @@
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Data\bin\Debug\netcoreapp2.2\Modelo.Business.dll
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Data\obj\Debug\netcoreapp2.2\Modelo.Data.AssemblyInfoInputs.cache
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Data\obj\Debug\netcoreapp2.2\Modelo.Data.AssemblyInfo.cs
