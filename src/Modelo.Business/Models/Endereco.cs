@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 namespace Modelo.Business.Models
 {
     public class Endereco : Entity

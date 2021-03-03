@@ -1,0 +1,9 @@
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\bin\Debug\netcoreapp2.2\Modelo.Business.deps.json
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\bin\Debug\netcoreapp2.2\Modelo.Business.dll
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\bin\Debug\netcoreapp2.2\Modelo.Business.pdb
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.csprojAssemblyReference.cache
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.AssemblyInfoInputs.cache
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.AssemblyInfo.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.csproj.CoreCompileInputs.cache
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.dll
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.pdb
