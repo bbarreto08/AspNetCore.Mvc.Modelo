@@ -8,8 +8,8 @@ namespace Modelo.Business.Interfaces
 {
     public interface IProdutoRepository : IRepository<Produto>
     {
-        Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid fornecedorId);
-        Task<IEnumerable<Produto>> ObterProdutosPorFornecedores();
-        Task<Produto> ObterProdutoPorFornecedor(Guid id);
+        Task<Produto> ObterProdutoFornecedor(Guid id);
+        Task<IEnumerable<Produto>> ObterProdutosFornecedores();
+        Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid id);
     }
 }

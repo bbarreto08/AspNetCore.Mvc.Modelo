@@ -9,7 +9,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Modelo.App.Data;
+using Modelo.Business.Interfaces;
 using Modelo.Data.Context;
+using Modelo.Data.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +51,11 @@ namespace Modelo.App
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddScoped<ModeloContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

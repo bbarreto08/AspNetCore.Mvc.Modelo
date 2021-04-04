@@ -6,17 +6,21 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Modelo.Data.Repository
 {
-    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity,, new()
+    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
         protected readonly ModeloContext db;
         protected readonly DbSet<TEntity> dbSet;
 
-        // 23:30
+        protected Repository(ModeloContext db)
+        {
+            this.db = db;
+            this.dbSet = db.Set<TEntity>();
+        }
+
         public async Task<IEnumerable<TEntity>> Buscar(Expression<Func<TEntity, bool>> predicate)
         {
             return await dbSet.AsNoTracking().Where(predicate).ToListAsync();
