@@ -37,3 +37,13 @@ D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Model
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Modelo.App.dll
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Modelo.App.pdb
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Modelo.App.genruntimeconfig.cache
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\Create.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\Delete.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\Details.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\Edit.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\Index.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Create.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Delete.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Details.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Edit.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Index.cshtml.g.cs

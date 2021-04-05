@@ -16,6 +16,12 @@ namespace Modelo.Data.Repository
 
         }
 
+        public async Task<IEnumerable<Fornecedor>> ObterTodos()
+        {
+            return await db.Fornecedores.AsNoTracking()
+                .Include(c => c.Endereco).ToListAsync();
+        }
+
         public async Task<Fornecedor> ObterFornecedorEndereco(Guid id)
         {
             return await db.Fornecedores.AsNoTracking()

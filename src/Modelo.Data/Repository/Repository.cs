@@ -26,12 +26,12 @@ namespace Modelo.Data.Repository
             return await dbSet.AsNoTracking().Where(predicate).ToListAsync();
         }
 
-        public virtual async Task<TEntity> ObeterPorId(Guid id)
+        public virtual async Task<TEntity> ObterPorId(Guid id)
         {
             return await dbSet.FindAsync(id);
         }
 
-        public virtual async Task<List<TEntity>> ObeterTodos(Guid id)
+        public virtual async Task<IEnumerable<TEntity>> ObterTodos()
         {
             return await dbSet.ToListAsync();
         }
