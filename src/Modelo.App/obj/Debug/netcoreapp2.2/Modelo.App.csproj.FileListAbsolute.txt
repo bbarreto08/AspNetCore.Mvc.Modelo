@@ -47,3 +47,5 @@ D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Details.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Edit.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Index.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\_Endereco.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\libman.json
