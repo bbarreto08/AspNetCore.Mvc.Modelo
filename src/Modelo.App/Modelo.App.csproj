@@ -30,4 +30,9 @@
     <ProjectReference Include="..\Modelo.Data\Modelo.Data.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
+  </ItemGroup>
+
 </Project>
