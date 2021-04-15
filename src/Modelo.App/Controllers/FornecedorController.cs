@@ -28,7 +28,7 @@ namespace Modelo.App.Controllers
 
         public async Task<IActionResult> Details(Guid id)
         {
-            var fornecedorViewModel = await _fornecedorRepository.ObterFornecedorEndereco(id);
+            FornecedorViewModel fornecedorViewModel = _mapper.Map<FornecedorViewModel>(await _fornecedorRepository.ObterFornecedorEndereco(id));
 
             if (fornecedorViewModel == null)
             {
@@ -45,7 +45,7 @@ namespace Modelo.App.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Documento,TipoFornecedor,Ativo")] FornecedorViewModel fornecedorViewModel)
+        public async Task<IActionResult> Create(FornecedorViewModel fornecedorViewModel)
         {
             if (ModelState.IsValid)
             {

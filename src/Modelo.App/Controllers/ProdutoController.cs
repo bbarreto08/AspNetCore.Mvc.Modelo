@@ -38,7 +38,7 @@ namespace Modelo.App.Controllers
                 return NotFound();
             }
 
-            var produtoViewModel = ObterProduto(id);
+            var produtoViewModel = await ObterProduto(id);
 
             if (produtoViewModel == null)
             {
