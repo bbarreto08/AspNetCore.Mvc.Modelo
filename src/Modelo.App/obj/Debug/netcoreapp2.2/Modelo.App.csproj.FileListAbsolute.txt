@@ -52,3 +52,5 @@ D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\libma
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\_DetalhesEndereco.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Produto\_ListaProdutos.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\_AtualizarEndereco.cshtml.g.cs
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\appsettings.Production.json
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\appsettings.Staging.json
