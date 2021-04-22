@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pxoelWmRQNz3yfHMdgggfbrJ1NQGhl3E5y1xG791X/RBydHPC0UwUhgiy6YZj4CFf82LRn13DJg9AbT1FmT2Eg==",
+  "dgSpecHash": "bpQ9uTj0SVgvwOQKomIrpZT2K5nupu5okE0F0WyYVyKX5IEj/M2Duke4w1ue6HXqmbt5+82wKIt9XXQk46nzEQ==",
   "success": true,
   "projectFilePath": "D:\\GitPessoal\\AspNetCore.Mvc.Modelo\\src\\Modelo.App\\Modelo.App.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Estudos\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\Estudos\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\4.0.1\\automapper.extensions.microsoft.dependencyinjection.4.0.1.nupkg.sha512",
+    "C:\\Users\\Estudos\\.nuget\\packages\\fluentvalidation\\10.0.4\\fluentvalidation.10.0.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
