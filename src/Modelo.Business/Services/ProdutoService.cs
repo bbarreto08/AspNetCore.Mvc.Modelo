@@ -1,5 +1,6 @@
 ﻿using Modelo.Business.Interfaces;
 using Modelo.Business.Models;
+using Modelo.Business.Validations;
 using System;
 using System.Threading.Tasks;
 
@@ -7,19 +8,35 @@ namespace Modelo.Business.Services
 {
     public class ProdutoService : BaseService, IProdutoService
     {
-        public Task Adicionar(Produto fornecedor)
+        private readonly IProdutoRepository _produtoRepository;
+
+        public ProdutoService(IProdutoRepository produtoRepository)
         {
-            throw new NotImplementedException();
+            _produtoRepository = produtoRepository;
         }
 
-        public Task Atualizar(Produto fornecedor)
+        public async Task Adicionar(Produto produto)
         {
-            throw new NotImplementedException();
+            if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
+
+            await _produtoRepository.Adicionar(produto);
         }
 
-        public Task Remover(Guid id)
+        public async Task Atualizar(Produto produto)
         {
-            throw new NotImplementedException();
+            if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
+
+            await _produtoRepository.Atualizar(produto);
+        }
+
+        public async Task Remover(Guid id)
+        {
+            await _produtoRepository.Remover(id);
+        }
+
+        public void Dispose()
+        {
+            _produtoRepository?.Dispose();
         }
     }
 }
