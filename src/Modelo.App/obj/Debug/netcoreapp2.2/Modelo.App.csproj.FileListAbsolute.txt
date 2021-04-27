@@ -54,3 +54,4 @@ D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedor\_AtualizarEndereco.cshtml.g.cs
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\appsettings.Production.json
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\bin\Debug\netcoreapp2.2\appsettings.Staging.json
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.App\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs

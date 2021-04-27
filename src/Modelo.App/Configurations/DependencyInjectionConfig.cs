@@ -1,13 +1,11 @@
-﻿using AutoMapper.Configuration;
-using Microsoft.AspNetCore.Mvc.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.DataAnnotations;
 using Microsoft.Extensions.DependencyInjection;
 using Modelo.App.Extensions;
 using Modelo.Business.Interfaces;
+using Modelo.Business.Notificacoes;
+using Modelo.Business.Services;
 using Modelo.Data.Context;
 using Modelo.Data.Repository;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Modelo.App.Configurations
 {
@@ -20,6 +18,10 @@ namespace Modelo.App.Configurations
             services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddSingleton<IValidationAttributeAdapterProvider, MoedaValidationAttributeAdapterProvider>();
+
+            services.AddScoped<INotificador, Notificador>();
+            services.AddScoped<IFornecedorService, FornecedorService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             return services;
         }
