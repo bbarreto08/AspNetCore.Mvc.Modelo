@@ -6,3 +6,4 @@ D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.csproj.CoreCompileInputs.cache
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.dll
 D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.pdb
+D:\GitPessoal\AspNetCore.Mvc.Modelo\src\Modelo.Business\obj\Debug\netcoreapp2.2\Modelo.Business.csprojAssemblyReference.cache
